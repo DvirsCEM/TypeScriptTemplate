@@ -1,3 +1,3 @@
-let helloDiv = document.querySelector("#helloDiv") as HTMLDivElement;
+let helloDiv = document.querySelector<HTMLDivElement>("#helloDiv")!;
 
 helloDiv.innerText = "Hello, World!";
